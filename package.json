@@ -1,0 +1,16 @@
+{
+  "name": "pw-asei",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.js"
+  },
+  "packageManager": "yarn@4.6.0"
+}
